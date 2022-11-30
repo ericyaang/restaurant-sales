@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+
+
+# private content
+instructions.md
+data/private-data/
+
 # Distribution / packaging
 .Python
 build/
@@ -102,6 +108,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+restaurant-sales/
 .env
 .venv
 env/
